@@ -1,9 +1,10 @@
-cabal-version: 1.12
-
--- This file has been generated from package.yaml by hpack version 0.34.4.
+-- This file has been generated from package.yaml by hpack version 0.27.0.
 --
 -- see: https://github.com/sol/hpack
+--
+-- hash: 48aa6c494ac26057f228744de436ac4ce73bf319ad2a3af5851060b3180d25d0
 
+cabal-version:  >= 1.10
 name:           web3
 version:        1.0.0.1
 synopsis:       Haskell Web3 library.
@@ -31,8 +32,8 @@ library
       src
   ghc-options: -funbox-strict-fields -Wduplicate-exports -Whi-shadowing -Widentities -Woverlapping-patterns -Wpartial-type-signatures -Wunrecognised-pragmas -Wtyped-holes -Wincomplete-patterns -Wincomplete-uni-patterns -Wmissing-fields -Wmissing-methods -Wmissing-exported-signatures -Wmissing-monadfail-instances -Wmissing-signatures -Wname-shadowing -Wunused-binds -Wunused-top-binds -Wunused-local-binds -Wunused-pattern-binds -Wunused-imports -Wunused-matches -Wunused-foralls -Wtabs
   build-depends:
-      base >4.11 && <4.16
-    , web3-ethereum ==1.0.*
-    , web3-polkadot ==1.0.*
-    , web3-provider ==1.0.*
+      base >4.11 && <4.18
+    , web3-ethereum >=1.0 && <1.1
+    , web3-polkadot >=1.0 && <1.1
+    , web3-provider >=1.0 && <1.1
   default-language: Haskell2010

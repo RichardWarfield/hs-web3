@@ -1,0 +1,15 @@
+
+allow-newer: animalcase:bytestring, animalcase:text
+
+packages: ./packages/web3/
+        , ./packages/ethereum/
+        , ./packages/jsonrpc/
+        , ./packages/provider/
+        , ./packages/polkadot/
+        , ./packages/solidity/
+        , ./packages/bignum/
+        , ./packages/crypto/
+        , ./packages/scale/
+        , ./packages/ipfs/
+        , ./packages/bignum/
+        , ./packages/hexstring/

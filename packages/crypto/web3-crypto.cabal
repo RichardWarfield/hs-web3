@@ -1,9 +1,10 @@
-cabal-version: 1.12
-
--- This file has been generated from package.yaml by hpack version 0.34.4.
+-- This file has been generated from package.yaml by hpack version 0.27.0.
 --
 -- see: https://github.com/sol/hpack
+--
+-- hash: e3d8a9dfeecf36daa5093fe92ac0bb5d5372f214436b648190433e2870ffe29c
 
+cabal-version:  >= 1.10
 name:           web3-crypto
 version:        1.0.0.1
 synopsis:       Cryptograhical primitives for Haskell Web3 library.
@@ -17,9 +18,10 @@ copyright:      (c) Aleksandr Krupenkin 2016-2021
 license:        Apache-2.0
 license-file:   LICENSE
 build-type:     Simple
+
 extra-source-files:
-    src/cbits/xxhash.h
     src/cbits/xxhash.c
+    src/cbits/xxhash.h
 
 source-repository head
   type: git
@@ -48,15 +50,15 @@ library
       src/cbits/xxhash.c
   build-depends:
       aeson >1.2 && <2.2
-    , base >4.11 && <4.16
-    , bytestring >0.10 && <0.11
+    , base >4.11 && <4.18
+    , bytestring >0.10 && <0.13
     , containers >0.6 && <0.7
-    , cryptonite >0.22 && <0.30
-    , memory >0.14 && <0.17
-    , memory-hexstring ==1.0.*
-    , text >1.2 && <1.3
+    , cryptonite >0.22 && <0.31
+    , memory >0.14 && <0.19
+    , memory-hexstring >=1.0 && <1.1
+    , text >1.2 && <2.1
     , uuid-types >1.0 && <1.1
-    , vector >0.12 && <0.13
+    , vector >0.12 && <0.14
   default-language: Haskell2010
 
 test-suite tests
@@ -89,17 +91,17 @@ test-suite tests
       src/cbits/xxhash.c
   build-depends:
       aeson >1.2 && <2.2
-    , base >4.11 && <4.16
-    , bytestring >0.10 && <0.11
+    , base >4.11 && <4.18
+    , bytestring >0.10 && <0.13
     , containers >0.6 && <0.7
-    , cryptonite >0.22 && <0.30
+    , cryptonite >0.22 && <0.31
     , hspec >=2.4.4 && <2.9
     , hspec-contrib >=0.4.0 && <0.6
     , hspec-discover >=2.4.4 && <2.9
     , hspec-expectations >=0.8.2 && <0.9
-    , memory >0.14 && <0.17
-    , memory-hexstring ==1.0.*
-    , text >1.2 && <1.3
+    , memory >0.14 && <0.19
+    , memory-hexstring >=1.0 && <1.1
+    , text >1.2 && <2.1
     , uuid-types >1.0 && <1.1
-    , vector >0.12 && <0.13
+    , vector >0.12 && <0.14
   default-language: Haskell2010
