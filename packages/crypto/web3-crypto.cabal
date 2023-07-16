@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e3d8a9dfeecf36daa5093fe92ac0bb5d5372f214436b648190433e2870ffe29c
+-- hash: 0634eb04c7db67d66d1d4d65d445c9a0d79eb0915f8ab2879691383aa53b7869
 
 cabal-version:  >= 1.10
 name:           web3-crypto
@@ -95,9 +95,9 @@ test-suite tests
     , bytestring >0.10 && <0.13
     , containers >0.6 && <0.7
     , cryptonite >0.22 && <0.31
-    , hspec >=2.4.4 && <2.9
+    , hspec >=2.4.4 && <2.12
     , hspec-contrib >=0.4.0 && <0.6
-    , hspec-discover >=2.4.4 && <2.9
+    , hspec-discover >=2.4.4 && <2.12
     , hspec-expectations >=0.8.2 && <0.9
     , memory >0.14 && <0.19
     , memory-hexstring >=1.0 && <1.1

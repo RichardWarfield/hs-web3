@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: debff8fb392fc8ad5872b2ff53d493113f52fc8797b294e06f895183b8f8e6c9
+-- hash: 98c403491661f2a56c782cb4f8c4bb70cf9b9b2e03be6c891f0aa90b38cfbfd4
 
 cabal-version:  >= 1.10
 name:           web3-polkadot
@@ -157,9 +157,9 @@ test-suite tests
     , containers >0.6 && <0.7
     , cryptonite >0.22 && <0.31
     , generics-sop >0.3 && <0.6
-    , hspec >=2.4.4 && <2.9
+    , hspec >=2.4.4 && <2.12
     , hspec-contrib >=0.4.0 && <0.6
-    , hspec-discover >=2.4.4 && <2.9
+    , hspec-discover >=2.4.4 && <2.12
     , hspec-expectations >=0.8.2 && <0.9
     , hspec-expectations-json >=1.0.0 && <1.1
     , jsonrpc-tinyclient >=1.0 && <1.1

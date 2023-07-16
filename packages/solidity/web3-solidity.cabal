@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: b3eb0163e5723f845e1c36a424e468b62983eb3cfad8f2c0152374365d09cb57
+-- hash: 02fd12a5a2d385615e51eb28e71d742307ae888452eda38e76ea867a7a861cf6
 
 cabal-version:  >= 1.10
 name:           web3-solidity
@@ -103,9 +103,9 @@ test-suite tests
     , cereal >0.5 && <0.6
     , data-default >0.7 && <0.8
     , generics-sop >0.3 && <0.6
-    , hspec >=2.4.4 && <2.9
+    , hspec >=2.4.4 && <2.12
     , hspec-contrib >=0.4.0 && <0.6
-    , hspec-discover >=2.4.4 && <2.9
+    , hspec-discover >=2.4.4 && <2.12
     , hspec-expectations >=0.8.2 && <0.9
     , memory >0.14 && <0.19
     , memory-hexstring >=1.0 && <1.1

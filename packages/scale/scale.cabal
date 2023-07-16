@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8ccc4bfa135c28d9bc837503e5a20878e192eefbb8702656350c5ac2448543f6
+-- hash: af1568b9cfa2f1681cf88a465ac7f92df369bec6fbd3b801e519da137f09cc95
 
 cabal-version:  >= 1.10
 name:           scale
@@ -74,13 +74,13 @@ test-suite tests
   build-depends:
       base >4.11 && <4.18
     , bitvec >1.0 && <2.0
-    , bytestring >0.10 && <0.11
+    , bytestring >0.10 && <0.13
     , cereal >0.5 && <0.6
     , data-default >0.7 && <0.8
     , generics-sop >0.3 && <0.6
-    , hspec >=2.4.4 && <2.9
+    , hspec >=2.4.4 && <2.12
     , hspec-contrib >=0.4.0 && <0.6
-    , hspec-discover >=2.4.4 && <2.9
+    , hspec-discover >=2.4.4 && <2.12
     , hspec-expectations >=0.8.2 && <0.9
     , memory >0.14 && <0.19
     , template-haskell >2.11 && <2.21

@@ -58,11 +58,11 @@ tests:
     - tests 
     - src
     dependencies:
-    - bytestring           >0.10    && <0.11
+    - bytestring           >0.10    && <0.13
     - hspec-expectations   >=0.8.2  && <0.9
-    - hspec-discover       >=2.4.4  && <2.9
+    - hspec-discover       >=2.4.4  && <2.12
     - hspec-contrib        >=0.4.0  && <0.6
-    - hspec                >=2.4.4  && <2.9
+    - hspec                >=2.4.4  && <2.12
     ghc-options:
     - -threaded
     - -rtsopts

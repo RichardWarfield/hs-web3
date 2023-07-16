@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f79d5e17192f3b51ad0fe007aa0d84f3bb6dcbea01dd25f23a6797f6dae59bcc
+-- hash: 184b26aeefb8eabfed848a5d0f767c23c3fb223971ee09e6e1c8b6f16981de37
 
 cabal-version:  >= 1.10
 name:           web3-ethereum
@@ -130,9 +130,9 @@ test-suite tests
     , data-default >0.7 && <0.8
     , exceptions >0.8 && <0.11
     , generics-sop >0.3 && <0.6
-    , hspec >=2.4.4 && <2.9
+    , hspec >=2.4.4 && <2.12
     , hspec-contrib >=0.4.0 && <0.6
-    , hspec-discover >=2.4.4 && <2.9
+    , hspec-discover >=2.4.4 && <2.12
     , hspec-expectations >=0.8.2 && <0.9
     , jsonrpc-tinyclient >=1.0 && <1.1
     , machines >0.6 && <0.8

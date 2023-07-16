@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 66cbef4c031c8d864aefcbe30bbb822ddfd4b0130fb00d1a35f9e96e9e0cef54
+-- hash: a1c69d04498598015c966816506f556e10452a7815bbf4a3c0894517fba18755
 
 cabal-version:  >= 1.10
 name:           web3-bignum
@@ -54,9 +54,9 @@ test-suite tests
   build-depends:
       base >4.11 && <4.18
     , cereal >0.5 && <0.6
-    , hspec >=2.4.4 && <2.9
+    , hspec >=2.4.4 && <2.12
     , hspec-contrib >=0.4.0 && <0.6
-    , hspec-discover >=2.4.4 && <2.9
+    , hspec-discover >=2.4.4 && <2.12
     , hspec-expectations >=0.8.2 && <0.9
     , memory >0.14 && <0.19
     , memory-hexstring >=1.0 && <1.1
